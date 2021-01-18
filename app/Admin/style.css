@@ -1,0 +1,183 @@
+*
+{
+	margin:0px;
+	padding:0px;
+}
+.container
+{
+	width:100%;
+}
+.Login_wrapper{
+	width:300px;
+	border:1px solid black;
+	margin-left:auto;
+	margin-right:auto;
+}
+.wrapper{
+	width:1000px;
+	margin-left:auto;
+    margin-right:auto;
+}
+.wrapper h1 { color: #fff; text-shadow: 0 0 10px rgba(0,0,0,0.3); letter-spacing:1px; text-align:center; }
+.dark{
+	
+	background-color:#31353d;
+	color:white;
+}
+.light{
+	background-color:#e9edf2;
+}
+#top_div{
+	height:40px;
+	line-height:40px;
+
+	
+}
+#top_left{
+	float:left;
+	display:inline-block;
+	
+	
+	
+	
+
+}
+#top_right{
+	float:right;
+	display:inline-block;
+	
+}
+
+#logo{
+	display:inline-block;
+	float:left;
+	border: 1px solid black;
+}
+
+
+
+#login{
+	
+	padding-top:20px; 
+}
+
+
+#clear{
+	clear:both;
+}
+#clear_right{
+	clear:right;
+}
+ #clear_left{
+	clear:leftt;
+}
+
+#login_top{
+	display:inline-block;
+	float:right;
+
+	
+}
+#login_bottom{
+	display:inline-block;
+	float:right;
+	
+}
+
+ul{
+	
+}
+ul li{
+	
+	
+	display:inline-block;
+	width:120px;
+	text-align:center;
+	height:35px;
+	line-height:35px;
+}
+ul li a{
+	color:white;
+	text-decoration:none;
+	display:block;
+}
+ul li a:hover{
+	background-color:orange;
+}
+#outerbox{ width:700px;
+	overflow:hidden;
+	padding-top:10px;
+	text-align:center;
+	margin-left:auto;
+margin-right:auto;
+	}
+
+#sliderbox{
+	boder:1px solid grey;
+	position:relative;
+	width:2800px;
+	animation-name:dk;
+	animation-duration:20s;	
+	animation-iteration-count:infinite;
+}
+
+#sliderbox img{
+	
+	float:left;
+}
+
+@keyframes dk{
+	0% {
+	left:0px;
+	}
+	
+	20%{
+	left:0px;
+	}
+	25%{
+	left:-700px;
+	}
+	45%{
+	left:-700px;}
+	
+	50%{
+		left:-1400px;}
+	70%{
+	 left:-1400px;
+	 }	
+	 
+	 75%{
+	 left:-2100px;}
+	 
+	 95%{
+	 left:-2100px}
+	100%{
+	left:-2800px;
+	}
+}
+
+#footer{
+	
+	text-align:center;
+	padding-top:10px;
+	height:150px;
+	 position:fixed;
+	 width: 100%;
+    bottom:0;
+    background:#31353d;
+
+ 
+}
+#footer a{
+	color:white;
+	text-decoration:none;
+	display:block;
+}
+#exam_chooser{
+	
+	padding:25px;
+}	
+
+#padding{
+	padding:25px;
+}
